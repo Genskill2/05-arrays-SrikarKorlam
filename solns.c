@@ -12,32 +12,32 @@ int primetest(int);
 
 
 int main(void) {
-  int x[] = {9,5,6,10,2,-3,4};
-  assert (max(x, 7) == 10);
+  int x1[] = {9,5,6,10,2,-3,4};
+  assert (max(x1, 7) == 10);
 
-  int y[] = {5};
-  assert (max(y, 1) == 5);
+  int y1[] = {5};
+  assert (max(y1, 1) == 5);
   
   
-  int x[] = {9,5,6,10,2,-3,4};
-  assert (min(x, 7) == -3);
+  int x2[] = {9,5,6,10,2,-3,4};
+  assert (min(x2, 7) == -3);
 
-  int y[] = {5};
-  assert (min(y, 1) == 5);
+  int y2[] = {5};
+  assert (min(y2, 1) == 5);
   
   
-  int x[] = {9,5,6,10,2,-3,4};
-  assert ((average(x, 7) - 4.7142) < 0.001);
+  int x3[] = {9,5,6,10,2,-3,4};
+  assert ((average(x3, 7) - 4.7142) < 0.001);
 
-  int y[] = {5};
-  assert (average(y, 1) == 5.0);
+  int y3[] = {5};
+  assert (average(y3, 1) == 5.0);
   
   
-  int x[] = {4, 9,5,6,5,10,0,2,-3, -3,4, 4};
-assert ((mode(x, 12) == 4));
+  int x4[] = {4, 9,5,6,5,10,0,2,-3, -3,4, 4};
+assert ((mode(x4, 12) == 4));
 
-  int y[] = {5};
-  assert (mode(y, 1) == 5);
+  int y4[] = {5};
+  assert (mode(y4, 1) == 5);
   
   
   int ret[100] = {0};
