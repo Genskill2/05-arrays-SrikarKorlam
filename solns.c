@@ -11,7 +11,7 @@ int repeat(int [], int , int);
 int primetest(int);
 
 
-int main(void) {
+/*int main(void) {
   int x1[] = {9,5,6,10,2,-3,4};
   assert (max(x1, 7) == 10);
 
@@ -55,7 +55,7 @@ assert ((mode(x4, 12) == 4));
   assert (ret[0] == 11);
   assert (ret[1] == 13);
   
-}
+}*/
 
 
 int max(int array[], int i){
